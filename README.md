@@ -1,4 +1,4 @@
-# MySQL-CRUD
+# mysql-promise-crud
 
 ## Why use it ?
 
