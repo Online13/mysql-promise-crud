@@ -9,6 +9,16 @@ You need **[node Js](https://nodejs.org/en/)** and package **[mysql](https://www
 
 ## API
 
+```js
+const MySQL = require('mysql-promise-crud');
+const config = {
+	host: "localhost",
+	user: "root",
+	password: "****"
+}
+const db = new MySQL(config,"portfolio","users")
+```
+
 `MySQL` is a class that need at least 2 options.
 
 ```js
@@ -26,6 +36,10 @@ It's name of database to use
 ### table
 
 `table` is optional but if don't add it in creation `MySQL` object, you should use function set for initialize table to use.
+
+```js
+db.set('table',"table name");
+```
 
 ## Example
 
