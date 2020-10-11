@@ -7,6 +7,12 @@ Because it's simple and we use **Promise API**, we use Object MySQL to access da
 ## Prerequisites
 You need **[node Js](https://nodejs.org/en/)** and package **[mysql](https://www.npmjs.com/package/mysql)**.
 
+## How to use ?
+
+```sh
+npm i mysql-promise-crud
+```
+
 ## API
 
 ```js
