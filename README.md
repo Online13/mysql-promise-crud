@@ -2,7 +2,7 @@
 
 ## Why use it ?
 
-Because it's simple and we use **Promise API**, we use Object MySQL to access database.
+because it's simple (**js**), asynchronous (**API Promise**) and **without writing SQL**.
 
 ## Prerequisites
 You need **[node Js](https://nodejs.org/en/)** and package **[mysql](https://www.npmjs.com/package/mysql)**.
@@ -37,11 +37,12 @@ MySQL(config,database,[table])
 
 ### database
 
-It's name of database to use
+It's name of the database to use
 
 ### table
 
-`table` is optional but if don't add it in creation `MySQL` object, you should use function set for initialize table to use.
+`table`  is optional, but if you don't add it to the `MySQL` instance, you must use the `set` function to initialize the table to use.
+
 
 ```js
 db.set('table',"table name");
