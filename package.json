@@ -1,6 +1,6 @@
 {
   "name": "mysql-promise-crud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple object that use Promise and some function for connect and query to mysql database",
   "main": "index.js",
   "scripts": {
