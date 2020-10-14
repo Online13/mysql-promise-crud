@@ -2,7 +2,7 @@
 
 ## Why use it ?
 
-because it's simple (**js**), asynchronous (**API Promise**) and **without writing SQL**.
+because it's simple (**js**), asynchronous (**API Promise**) and **without writing SQL**. It is especially useful for those who start and use it locally.
 
 ## Prerequisites
 
