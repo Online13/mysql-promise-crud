@@ -1,4 +1,6 @@
-const MySQL = require('./lib/index');
+// using express to manage routes and middlewares
+
+const MySQL = require('mysql-promise-crud'); // ./lib/index
 const config = {
 	user: "root",
 	host: "localhost",
